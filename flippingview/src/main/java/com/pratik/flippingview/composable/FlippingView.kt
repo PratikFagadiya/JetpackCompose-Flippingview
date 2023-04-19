@@ -37,9 +37,7 @@ fun FlippingView(
         )
     )
 
-    Card(elevation = CardDefaults.cardElevation(
-        defaultElevation = cardShadow.dp
-    ), onClick = {
+    Card(onClick = {
         onViewClick(cardFace)
     }, modifier = modifier.graphicsLayer {
         if (cardOrientation == CardOrientation.VERTICAL) {
@@ -50,7 +48,10 @@ fun FlippingView(
             cameraDistance = 12f * density
         }
 
-    }, shape = RoundedCornerShape(cornerSize)
+    },
+        elevation = CardDefaults.cardElevation(
+            defaultElevation = cardShadow.dp
+        ), shape = RoundedCornerShape(cornerSize)
     ) {
 
         Box(modifier = modifier.fillMaxSize()) {
@@ -62,7 +63,6 @@ fun FlippingView(
                 Box(modifier = Modifier
                     .fillMaxSize()
                     .graphicsLayer {
-
                         if (cardOrientation == CardOrientation.VERTICAL) {
                             rotationX = CardFace.Back.angel
                         } else {
@@ -72,10 +72,8 @@ fun FlippingView(
                     }) {
                     backView()
                 }
-
             }
         }
-
     }
 
 }
