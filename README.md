@@ -6,7 +6,7 @@ Why settle for boring, static screens in your app when you can add a dynamic and
 
 **FlippingView** library is built with the latest Jetpack Compose and Material Design 3 API technology, making it both cutting-edge and experimental. It's super easy to use, and our code is well-documented, so you'll be flipping cards like a pro in no time.
 
-
+*Made with love ❤️ by [Pratik Fagadiya](https://github.com/pratikfagadiya)*
 
 https://user-images.githubusercontent.com/66842132/233161793-0b81cd7f-9377-4d19-90f5-4521476b90f1.mp4
 
@@ -127,3 +127,26 @@ If you found this library helpful or you learned something from the source code 
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
 </a> 
 </div> 
+
+</br>
+
+## License 🔖
+```
+Apache 2.0 License
+
+
+Copyright 2023 Pratik Fagadiya
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+```
