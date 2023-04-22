@@ -15,6 +15,31 @@ https://user-images.githubusercontent.com/66842132/233161793-0b81cd7f-9377-4d19-
 
 <br />
 
+## Including in your project
+
+Add this to `settings.gradle` of project.
+
+```kotlin
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }  // Add jitpack.io
+    }
+}
+```
+
+Add the dependency below to your module's `build.gradle` file:
+
+```kotlin
+dependencies {
+    implementation 'com.github.PratikFagadiya:JetpackCompose-Flippingview:1.0'
+}
+```
+
+
+<br/> 
+
 ## How to use
 You can create a FlippingView with the `FlippingViewl` composable.
 
@@ -112,6 +137,8 @@ If you found this library helpful or you learned something from the source code 
 ## Contribution 🤝
 
 - If you would like to contribute you're most welcome! 💛
+See [Contributing Guidelines](https://github.com/PratikFagadiya/JetpackCompose-Flippingview/blob/master/CONTRIBUTION.md). 
+
 
 <br />
 
