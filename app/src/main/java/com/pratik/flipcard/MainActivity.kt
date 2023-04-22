@@ -76,8 +76,10 @@ fun FlippingCard() {
 
                     Column {
                         Image(
-                            painterResource(id = R.drawable.logo), contentDescription = stringResource(
-                                                            R.string.patrik_codes_logo)
+                            painterResource(id = R.drawable.logo),
+                            contentDescription = stringResource(
+                                R.string.patrik_codes_logo
+                            )
                         )
                         Text(
                             stringResource(R.string.patrik_codes),
